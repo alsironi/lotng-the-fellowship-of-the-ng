@@ -1,4 +1,35 @@
-# MyAngularProject
+# The lord of the ngs - the fellowship of the ng
+
+## Lore
+
+The fellowship of the ng is a pseudo game based in lore of the lord of the rings.
+
+In this first part of the game the fellowship formed by our well-known 9 characters will try to destroy the one ng. 
+
+The fellowship is composed by:
+
+- Gandalf the white
+- Aragorn
+- Legolas
+- Gimli
+- Boromir
+- Pippin
+- Merry
+- Sam
+- Frodo
+
+Each character has a set of skills and abilities that will be used to defeat the one ng.
+
+The ng is a powerful entity that has a set of skills and abilities and will be used to defeat the fellowship through the manipulation of different creatures of the middle earth.
+
+
+## Services
+
+The services are provided at the root level by default, so they will be singleton instances available throughout the app.
+
+
+
+# Angular 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
@@ -52,8 +83,4 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
