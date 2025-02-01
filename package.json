@@ -1,5 +1,5 @@
 {
-  "name": "my-angular-project",
+"name": "lotng-the-fellowship-of-the-ng",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:my-angular-project": "node dist/my-angular-project/server/server.mjs"
+    "serve:ssr:lotng-the-fellowship-of-the-ng": "node dist/lotng-the-fellowship-of-the-ng/server/server.mjs"
   },
   "private": true,
   "dependencies": {
