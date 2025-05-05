@@ -1,0 +1,38 @@
+<div class="home-container">
+  <video autoplay muted loop class="background-video">
+    <source src="data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc2MyYXZjMW1wNDEAAAAIZnJlZQAAAs0bXZ0dAAACrQADDAAAAwADAA==" type="video/mp4">
+  </video>
+
+  <div class="animated-background"></div>
+
+  <div class="content">
+    <div class="header">
+      <h1 class="title">{{ title }}</h1>
+      <p class="subtitle">{{ subtitle }}</p>
+    </div>
+
+    <div class="character-grid">
+      <div class="character-card" routerLink="/frodo">
+        <div class="card-image">🧝</div>
+        <h2>Frodo Baggins</h2>
+        <p>The Ring-bearer</p>
+      </div>
+
+      <div class="character-card" routerLink="/sam">
+        <div class="card-image">🫔</div>
+        <h2>Samwise Gamgee</h2>
+        <p>The Loyal Companion</p>
+      </div>
+
+      <div class="character-card" routerLink="/aragorn">
+        <div class="card-image">⚔️</div>
+        <h2>Aragorn</h2>
+        <p>The Ranger King</p>
+      </div>
+    </div>
+
+    <div class="welcome-text">
+      <p>Welcome to the Fellowship. Choose a character to begin your journey through Middle-earth.</p>
+    </div>
+  </div>
+</div>
