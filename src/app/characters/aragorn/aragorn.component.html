@@ -1,0 +1,41 @@
+<div class="character-detail">
+  <div class="back-button">
+    <a routerLink="/">← Back to Home</a>
+  </div>
+
+  <div class="character-container">
+    <div class="character-header">
+      <div class="character-icon">⚔️</div>
+      <h1>{{ character.name }}</h1>
+      <p class="race">{{ character.race }} of {{ character.realm }}</p>
+    </div>
+
+    <div class="character-info">
+      <div class="stat">
+        <label>Level</label>
+        <span>{{ character.level }}</span>
+      </div>
+
+      <div class="stat">
+        <label>Race</label>
+        <span>{{ character.race }}</span>
+      </div>
+
+      <div class="stat">
+        <label>Realm</label>
+        <span>{{ character.realm }}</span>
+      </div>
+    </div>
+
+    <div class="abilities">
+      <h2>Abilities</h2>
+      <ul>
+        <li *ngFor="let ability of character.abilities">{{ ability }}</li>
+      </ul>
+    </div>
+
+    <div class="description">
+      <p>{{ character.description }}</p>
+    </div>
+  </div>
+</div>
